@@ -1,0 +1,71 @@
+.profile-main {
+  margin: 50px;
+  background-color: #fbf3d5;
+  max-width: 100%;
+  height: fit-content;
+  border-radius: 4px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border: none !important;
+}
+
+.profile-title {
+  margin: 0px !important;
+  padding: 10px 0px !important;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50rem;
+}
+
+.profile-main .profile-title h4 {
+  color: rgba(0, 0, 0, 0.6) !important;
+  margin: 0px !important;
+  margin: auto !important;
+  padding: 10px 30px !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 25px !important;
+}
+.modal-edit {
+  text-align: center;
+  width: 45% !important;
+}
+.modal-edit .ant-modal-content,
+.ant-modal-title {
+  font-size: 18px !important;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+.modal-edit .ant-form {
+  width: 100%;
+  margin: auto;
+}
+.modal-edit .ant-form .ant-picker {
+  width: 100%;
+}
+.profile-main .col-3 {
+  border-right: 3px solid rgba(0, 0, 0, 0.2);
+  padding: 0;
+}
+
+.profile-main .info {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 3px 15px !important;
+  width: fit-content !important;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.profile-main .ant-divider-inner-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+.profile-main .ant-divider::after {
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+.profile-main .ant-divider::before {
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.info {
+  background-color: white;
+}

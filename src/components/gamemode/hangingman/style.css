@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Shantell Sans", cursive;
+}
+
+.hanging-man {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: transparent;
+  /* border: solid 3px #ccc; */
+  border-radius: 15px;
+}
+.hanging-man-top {
+  padding: 15px;
+}
+
+.hanging-man-gameover {
+  margin: 0 auto;
+  width: 60%;
+  height: 100%;
+  background-color: #ebdada;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic;
+  padding: 32px;
+}
+
+.gameover {
+  width: 100%;
+  height: 80vh;
+  background-color: #ebdada;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hanging-man-retry-button {
+  padding: 15px;
+  background-color: #5e5757;
+  border-radius: 25px;
+  color: #fcfcfc;
+  cursor: pointer;
+  transition: 500ms;
+  box-shadow: 3px 3px 5px #828080;
+}
+.hanging-man-retry-button:hover {
+  background-color: rgb(37, 37, 37);
+  color: rgb(205, 230, 230);
+}
+
+.hanging-man-question {
+  width: 100%;
+  height: 300px;
+  border: 2px solid #c4c4c4;
+  /* background: linear-gradient(to right, #34dc72, #2ee464); */
+  background-color: #e4f5f4;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.hanging-man-question-content {
+  width: 100%;
+  padding: 16px;
+  min-height: 150px;
+  border: 2px solid #0ab84b;
+  background-color: #fcfcfc;
+  font-size: 28px;
+  border-radius: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hanging-man-answer {
+  width: 100%;
+  padding: 24px;
+  letter-spacing: 15px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2c8448;
+}
+.hanging-man-keyboard-key {
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  margin: 3px;
+  cursor: pointer;
+  transition: 500ms;
+  box-shadow: 0px 2px 5px #ccc;
+}
+.hanging-man-keyboard-key:hover {
+  background-color: rgb(44, 38, 38);
+  color: #ccc;
+}
+
+.hanging-man-keyboard {
+  margin: 1 auto;
+  width: 80%;
+  min-height: auto;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 70%;
+  height: 100%;
+}
+
+.hanging-man-title {
+  display: flex;
+  align-items: center; /* Center elements horizontally */
+  justify-content: space-between; /* Maintain spacing between elements */
+  padding: 12px;
+}
+
+@media only screen and (min-width: 1919px) {
+  .hanging-man {
+    max-width: 100%; /* Make it fill the width */
+    height: 1200px;
+  }
+  .hanging-man-question {
+    font-size: 25px; /* Adjust font size for smaller screens */
+    height: 100%;
+    width: 100%;
+  }
+  .hanging-man-question .hanging-man-question-content {
+    width: 100%;
+    height: 300px;
+    font-size: 30px;
+  }
+  .hanging-man-answer {
+    margin-top: 80px;
+    font-size: 35px; /* Adjust font size for smaller screens */
+  }
+  .hanging-man-keyboard-key {
+    font-size: 28px; /* Adjust font size for smaller screens */
+    margin: 2px;
+    width: 140px;
+  }
+  .hanging-man-question-content {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+  .hanging-man {
+    max-width: 100%; /* Make it fill the width */
+    height: 900px;
+  }
+  .hanging-man-question {
+    font-size: 15px; /* Adjust font size for smaller screens */
+    height: 80%;
+    width: 100%;
+  }
+  .hanging-man-question .hanging-man-question-content {
+    font-size: 30px;
+    width: 100%;
+    height: 80%;
+  }
+  .hanging-man-answer {
+    margin-top: 90px;
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
+  .hanging-man-keyboard-key {
+    font-size: 24px; /* Adjust font size for smaller screens */
+    width: 90px;
+  }
+  .fail-image {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+  .hanging-man {
+    max-width: 100%; /* Make it fill the width */
+    min-height: 800px;
+  }
+  .hanging-man-question {
+    font-size: 13px; /* Adjust font size for smaller screens */
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+  }
+  .hanging-man-question .hanging-man-question-content {
+    width: 80%;
+    height: 80%;
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .hanging-man-answer {
+    margin-top: 80px;
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
+  .hanging-man-keyboard-key {
+    font-size: 24px; /* Adjust font size for smaller screens */
+    margin: 2px;
+    width: 120px;
+  }
+  .hanging-man-question-content {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+  .fail-image {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .hanging-man {
+    max-width: 100%; /* Make it fill the width */
+    min-height: 100%;
+  }
+  .hanging-man-question {
+    font-size: 12px; /* Adjust font size for smaller screens */
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+  }
+  .hanging-man-question .hanging-man-question-content {
+    width: 80%;
+    height: 80%;
+    font-size: 24px;
+    margin: 0 auto;
+  }
+  .hanging-man-answer {
+    margin-top: 80px;
+    font-size: 26px; /* Adjust font size for smaller screens */
+  }
+  .hanging-man-keyboard-key {
+    font-size: 20px; /* Adjust font size for smaller screens */
+    margin: 2px;
+    width: 55px;
+  }
+  .hanging-man-question-content {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+  .fail-image {
+    width: 70%;
+    height: 80%;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  .hanging-man {
+    max-width: 100%; /* Make it fill the width */
+    min-height: 100%;
+  }
+  .hanging-man-question {
+    font-size: 12px; /* Adjust font size for smaller screens */
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+  }
+  .hanging-man-question .hanging-man-question-content {
+    width: 70%;
+    height: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+  .hanging-man-answer {
+    margin-top: 80px;
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+  .hanging-man-keyboard-key {
+    font-size: 20px; /* Adjust font size for smaller screens */
+    margin: 2px;
+    width: 45px;
+  }
+  .hanging-man-question-content {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+  .fail-image {
+    width: 70%;
+    height: 80%;
+  }
+}

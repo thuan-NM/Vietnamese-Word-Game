@@ -1,0 +1,55 @@
+.clock {
+  border: 4px #212121;
+  padding-right: 1rem;
+  border-radius: 50rem;
+  max-width: 25rem;
+  min-height: 5.625rem;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #18f9bd, #0ab84b);
+  color: #822f2f;
+  margin-top: 15px;
+}
+
+.clock-image {
+  padding-left: 0.5rem;
+  width: 3.5rem;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.clock-count-title {
+  color: #000a38;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+}
+.clock-count-rounded {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 50rem;
+  height: 4.5rem;
+  background-color: #ffffff;
+  margin-right: -0.4rem;
+  width: 14rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  border-left: 2px solid rgb(73, 227, 78);
+}
+.clock-count-rounded .clock-count-rounded-hour p,
+.clock-count-rounded .clock-count-rounded-minute p,
+.clock-count-rounded .clock-count-rounded-second p {
+  color: #000a38;
+  font-size: 1.55rem;
+  font-weight: 300;
+  margin-bottom: -0.4rem;
+}
+.clock-count-rounded .clock-count-rounded-hour span,
+.clock-count-rounded .clock-count-rounded-minute span,
+.clock-count-rounded .clock-count-rounded-second span {
+  color: #000a38;
+  font-size: 1rem;
+  font-weight: 800;
+  padding-left: 0.2rem;
+}

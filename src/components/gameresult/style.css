@@ -1,0 +1,44 @@
+.second-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 480px;
+  height: 600px;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png");
+  background-size: cover;
+}
+
+.trophy-image {
+  width: 280px;
+  height: 220px;
+  margin-top: 180px;
+}
+.play-button {
+  width: 160px;
+  padding: 5px;
+  border-style: none;
+  outline: none;
+  background-color: #cf60c8;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.restart {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+.main-heading {
+  color: #fec93e;
+  font-size: 28px;
+}
+.main-heading-1 {
+  color: white;
+  font-size: 18px;
+}

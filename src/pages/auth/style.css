@@ -1,0 +1,159 @@
+.signup-sec {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fbf3d5;
+  width: 100%;
+  height: fit-content;
+  border-radius: 4px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.signup-sec .col-3 {
+  border-right: 3px solid rgba(0, 0, 0, 0.2);
+  padding: 0px;
+}
+.col-3 button {
+  margin-top: 20px !important;
+  width: 40%;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.signup-button-sec {
+  padding-bottom: 15px;
+  border-bottom: 3px rgba(0, 0, 0, 0.2) solid !important;
+}
+
+.signup-button-sec button {
+  background-color: #bebebe;
+  padding: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.signup-button-sec button.active {
+  background-color: rgba(17, 14, 14, 0.837);
+  /* padding: 8px 15px; */
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  text-align: center;
+  color: blanchedalmond;
+}
+
+.signup-header {
+  width: 100%;
+  padding: 10px;
+  border-bottom: solid rgba(0, 0, 0, 0.2) 3px;
+  font-size: larger;
+  text-align: center;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.signup-sec .col-9 {
+  padding: 0px !important;
+  flex-direction: column;
+  display: flex;
+  align-items: start;
+}
+
+.signup-sec .col-9 label {
+  text-align: start !important;
+}
+
+.signup-sec .account-sec {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: auto;
+}
+.signup-sec .account-sec button {
+  margin: 120px !important;
+  margin-top: 15px !important;
+  padding: 5px 5px;
+  background-color: #cdcdcd;
+  border-radius: 4px;
+  border: solid 2px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  font-size: 15px;
+  font-weight: 400;
+  height: fit-content;
+}
+.signup-sec .account-sec button.active {
+  padding: 5px 5px;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  color: blanchedalmond;
+  font-weight: 400;
+}
+.signup-sec .social-account {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+}
+.signup-sec .social-account-item {
+  text-align: start;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.signup-sec .social-account-item span {
+  text-align: start !important;
+  font-size: 20px !important;
+  margin-right: 5px;
+}
+.signup-sec .social-account-item:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+  transition: 0.2s ease-in;
+}
+
+.signup-sec .ant-picker {
+  width: 100%;
+}
+
+.ant-select-selector {
+  text-align: left !important;
+}
+
+.signup-sec .ant-input-number {
+  width: 100% !important;
+}
+.ant-form {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.ant-form .ant-form-item-label {
+  width: 50px !important;
+}
+
+.ant-form-item {
+  margin: 30px 0px;
+}
+
+.ant-form button {
+  height: fit-content;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: blanchedalmond;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.ant-form-item-explain-error {
+  text-align: center;
+}
+button:hover {
+  background-color: whitesmoke;
+  border: black solid 1px !important;
+  color: black !important;
+}

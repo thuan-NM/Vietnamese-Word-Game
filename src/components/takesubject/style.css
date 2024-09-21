@@ -1,0 +1,44 @@
+.take-subject-button {
+  padding: 15px;
+}
+
+.take-subject-choose-subject-none {
+  display: none;
+}
+
+.take-subject-choose-subject {
+  padding-top: 30px;
+}
+
+.take-subject-choose-subject button {
+  padding: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #151256;
+  box-shadow: 5px 8px 5px #ccc;
+}
+
+.take-subject-choose-subject button:hover {
+  background-color: rgb(56, 197, 101);
+  color: whitesmoke;
+}
+
+.take-subject-choose-gamemode {
+  padding: 15px;
+}
+.take-subject-choose-gamemode button {
+  padding: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #151256;
+  box-shadow: 5px 8px 5px #ccc;
+}
+
+.take-subject-choose-gamemode button:hover {
+  background-color: rgb(56, 197, 101);
+  color: whitesmoke;
+}

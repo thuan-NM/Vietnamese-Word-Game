@@ -1,0 +1,251 @@
+.adminpage-main {
+  background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-autumn-taste-games-cartoon-picture-image_958468.jpg");
+  width: 100%;
+  height: fit-content;
+  min-height: 100vh;
+  border-radius: 4px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border: none !important;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.adminpage-main .col-3 {
+  border-right: 3px solid rgba(0, 0, 0, 0.2);
+  padding: 0;
+}
+
+.adminpage-main .col-9 {
+  padding: 0;
+}
+
+.adminpage-main .choose-title {
+  margin: 0px !important;
+  padding: 10px 0px !important;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+.adminpage-main .choose-title h4 {
+  color: rgba(0, 0, 0, 0.6) !important;
+  margin: 0px !important;
+  margin: auto !important;
+  padding: 10px 30px !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 25px !important;
+}
+.adminpage-main .btn-choosing {
+  margin: auto;
+  width: 65% !important;
+  height: 50px;
+  border-radius: 25px !important;
+}
+
+.adminpage-main .btn-choosing.active {
+  background-color: rgba(84, 234, 184, 0.619) !important;
+}
+
+.adminpage-main .btn-adding svg {
+  font-size: x-large;
+  padding: 0px;
+}
+
+.adminpage-main .btn-adding {
+  width: 45px;
+  height: 45px;
+  padding: 0px !important;
+  background-color: aliceblue;
+}
+.adminpage-main .question-item {
+  background-color: aliceblue;
+  width: 20%;
+  height: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  transition: ease-out 0.2s;
+  border: 3px solid rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.adminpage-main .question-item.player-item {
+  background-color: aliceblue;
+  width: 20%;
+  height: 350px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  transition: ease-out 0.2s;
+  border: 3px solid rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.adminpage-main .question-item.admin-item {
+  background-color: aliceblue;
+  width: 20%;
+  height: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  transition: ease-out 0.2s;
+  border: 3px solid rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.adminpage-main .question-item:hover {
+  transition: ease-in 0.105s;
+  background-color: rgba(84, 234, 184, 0.9) !important;
+  transform: scale(1.05);
+}
+
+.adminpage-main .question-item-header {
+  margin-top: 20px;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  /* Tự động chuyển xuống dòng nếu một từ không thể hiển thị đầy đủ trong một dòng */
+}
+
+.adminpage-main .question-item-answer {
+  margin-top: 20px;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  /* Tự động chuyển xuống dòng nếu một từ không thể hiển thị đầy đủ trong một dòng */
+}
+
+.adminpage-main .question-item-content.title {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 0px !important;
+  /* Tự động chuyển xuống dòng nếu một từ không thể hiển thị đầy đủ trong một dòng */
+}
+
+.adminpage-main .title {
+  font-weight: 600;
+  text-align: left !important;
+}
+
+.adminpage-main .question-item-body {
+  margin-top: 20px;
+  text-align: left !important;
+}
+.adminpage-main .questions-list {
+  align-items: start;
+  margin: 20px 80px !important;
+  width: 95% !important;
+  gap: 30px;
+}
+.adminpage-main .question-item-answer {
+  text-wrap: balance;
+}
+.adminpage-main .dropdown-editing {
+  margin: 0px !important;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  padding: 0px !important;
+  width: fit-content;
+  background-color: transparent !important;
+  border: none !important;
+  height: fit-content !important;
+}
+.dropdown-item {
+  font-size: large !important;
+}
+.ant-form {
+  width: 80% !important;
+}
+.ant-row .ant-col {
+  width: 150px !important;
+}
+
+.adminpage-main .question-item img {
+  width: 75px;
+  height: 75px;
+}
+.adminpage-main .subject-main {
+  margin: auto !important;
+  padding-left: 35px;
+}
+
+.adminpage-main .subject-item {
+  background-color: white;
+  width: 11%;
+  height: 100px;
+  border-radius: 18px;
+  padding: 0px;
+  margin: 26px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminpage-main .subject-item span {
+  text-wrap: balance;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  z-index: 99;
+  font-weight: 800;
+  padding: 10px !important;
+}
+
+.adminpage-main .subject-item img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 0.4;
+}
+
+@media only screen and (max-width: 600px) {
+  .adminpage-main {
+    padding: 12px;
+  }
+
+  .adminpage-main .col-3,
+  .adminpage-main .col-9 {
+    width: 100%;
+  }
+
+  .adminpage-main .btn-choosing {
+    width: 100% !important;
+  }
+
+  .adminpage-main .question-item,
+  .adminpage-main .question-item.player-item,
+  .adminpage-main .question-item.admin-item {
+    width: 100%;
+  }
+
+  .adminpage-main .questions-list {
+    margin: 10px 40px !important;
+    width: 100% !important;
+  }
+
+  .adminpage-main .subject-item {
+    width: 48%;
+  }
+
+  .ant-form {
+    width: 100% !important;
+  }
+
+  .ant-row .ant-col {
+    width: 100px !important;
+  }
+}

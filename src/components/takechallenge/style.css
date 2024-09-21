@@ -1,0 +1,40 @@
+.take-challenge {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://jthemes.net/themes/html/quizo/version-5/assets/images/bg_0.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1920px) {
+  .take-challenge {
+    max-width: 1920px;
+    height: 1200px;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+  .take-challenge {
+    min-width: 1440px;
+    height: 1000px;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+  .take-challenge {
+    min-width: 1280px;
+    height: 800px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .take-challenge {
+    min-width: 1024px;
+    height: 768px;
+  }
+}
+@media only screen and (min-width: 800) and (max-width: 1023px) {
+  .take-challenge {
+    min-width: 800px;
+    height: 600px;
+  }
+}

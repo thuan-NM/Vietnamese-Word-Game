@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.choose-answer {
+  width: 60%;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px 4px #cdcdcd;
+  padding: 0px 5px 0px 5px;
+}
+.choose-answer-title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0px 12px 0px 12px;
+}
+.choose-answer-count {
+  width: 100%;
+  height: 100%;
+  color: black;
+  padding: 0px 12px 0px 12px;
+}
+.choose-answer-count-question {
+  border: solid 3px #c8f0d3;
+  border-radius: 15px;
+  padding: 5px 15px 5px 15px;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.choose-answer-question span {
+  width: 100%;
+  margin: 0 auto;
+  border: solid 3px #c8f0d3;
+  border-radius: 15px;
+  padding: 24px;
+  font-size: 32px;
+  color: #222222;
+  background-color: #ffffff;
+}
+.choose-answer-answer {
+  width: 100%;
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Wrap buttons to multiple lines */
+  justify-content: space-between; /* Distribute buttons evenly */
+  align-items: flex-start; /* Align buttons to the top */
+  gap: 15px; /* Maintain spacing between buttons */
+  padding: 12px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.choose-answer-answer-button {
+  padding: 12px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 3px 3px 3px gray;
+  transition: 500ms;
+  font-size: 25px;
+  flex: 1 1 0;
+  flex-basis: 50%;
+  width: calc(100% - 30px); /* Adjust for padding and gap */
+  height: calc(100% - 30px); /* Adjust for padding and gap */
+}
+.choose-answer-answer-button:hover {
+  background-color: rgb(155, 198, 236);
+}
+
+.choose-answer-answer-button-disable {
+  padding: 12px;
+  border-radius: 15px;
+  background-color: #d9d8d8;
+  box-shadow: 3px 3px 3px gray;
+  transition: 500ms;
+  font-size: 25px;
+  flex: 1 1 0;
+  flex-basis: 50%;
+  width: calc(100% - 30px); /* Adjust for padding and gap */
+  height: calc(100% - 30px); /* Adjust for padding and gap */
+}
+.choose-answer-rightanswer {
+  background-color: #def7e5; /* Green for correct answer */
+  color: #22a247;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+  transition: 500ms;
+  font-size: 25px;
+  flex: 1 1 0;
+  flex-basis: 50%;
+  width: calc(100% - 30px); /* Adjust for padding and gap */
+  height: calc(100% - 30px); /* Adjust for padding and gap */
+}
+
+.choose-answer-falseanswer {
+  background-color: rgb(202, 31, 31); /* Red for incorrect answer */
+  color: white;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+  transition: 500ms;
+  font-size: 25px;
+  flex: 1 1 0;
+  flex-basis: 50%;
+  width: calc(100% - 30px); /* Adjust for padding and gap */
+  height: calc(100% - 30px); /* Adjust for padding and gap */
+}
+@media only screen and (min-width: 1919px) {
+  .choose-answer {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+  .choose-answer {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+  .choose-answer {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .choose-answer {
+    margin-top: 40px;
+    width: 80%;
+    height: 700px;
+  }
+  .choose-answer-count {
+    width: 93%;
+    margin: 0 auto;
+  }
+  .choose-answer-question {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .choose-answer-question span {
+    font-size: 30px;
+  }
+  .choose-answer-answer {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .choose-answer-answer-button {
+    font-size: 20px;
+  }
+  .choose-answer-answer-button-disable {
+    padding: 8px;
+    border-radius: 15px;
+    background-color: #d9d8d8;
+    box-shadow: 3px 3px 3px gray;
+    transition: 500ms;
+    font-size: 20px;
+    flex: 1 1 0;
+    flex-basis: 50%;
+    width: calc(100% - 30px); /* Adjust for padding and gap */
+    height: calc(100% - 30px); /* Adjust for padding and gap */
+  }
+  .choose-answer-rightanswer {
+    background-color: #def7e5; /* Green for correct answer */
+    color: #22a247;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px gray;
+    transition: 500ms;
+    font-size: 28px;
+    flex: 1 1 0;
+    flex-basis: 50%;
+    width: calc(100% - 30px); /* Adjust for padding and gap */
+    height: calc(100% - 30px); /* Adjust for padding and gap */
+  }
+
+  .choose-answer-falseanswer {
+    background-color: rgb(202, 31, 31); /* Red for incorrect answer */
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px gray;
+    transition: 500ms;
+    font-size: 20px;
+    flex: 1 1 0;
+    flex-basis: 50%;
+    width: calc(100% - 30px); /* Adjust for padding and gap */
+    height: calc(100% - 30px); /* Adjust for padding and gap */
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  .choose-answer {
+    margin-top: 40px;
+    width: 80%;
+    height: 90%;
+  }
+  .choose-answer-count {
+    width: 93%;
+    margin: 0 auto;
+  }
+  .choose-answer-question {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .choose-answer-question span {
+    font-size: 22px;
+  }
+  .choose-answer-answer {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .choose-answer-answer-button {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .choose-answer-answer-button-disable {
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: #d9d8d8;
+    box-shadow: 3px 3px 3px gray;
+    transition: 500ms;
+    font-size: 20px;
+    flex: 1 1 0;
+    flex-basis: 50%;
+    width: calc(100% - 30px); /* Adjust for padding and gap */
+    height: calc(100% - 30px); /* Adjust for padding and gap */
+  }
+  .choose-answer-rightanswer {
+    background-color: #def7e5; /* Green for correct answer */
+    margin-bottom: 15px;
+    color: #22a247;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px gray;
+    transition: 500ms;
+    font-size: 28px;
+    flex: 1 1 0;
+    flex-basis: 50%;
+    width: calc(100% - 30px); /* Adjust for padding and gap */
+    height: calc(100% - 30px); /* Adjust for padding and gap */
+  }
+
+  .choose-answer-falseanswer {
+    background-color: rgb(202, 31, 31); /* Red for incorrect answer */
+    margin-bottom: 15px;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px gray;
+    transition: 500ms;
+    font-size: 20px;
+    flex: 1 1 0;
+    flex-basis: 50%;
+    width: calc(100% - 30px); /* Adjust for padding and gap */
+    height: calc(100% - 30px); /* Adjust for padding and gap */
+  }
+}

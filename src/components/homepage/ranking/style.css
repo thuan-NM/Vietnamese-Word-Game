@@ -1,0 +1,14 @@
+.ranking {
+  background-color: rgba(84, 234, 184, 0.619);
+  border: 2px solid #ebebeb;
+  border-radius: 12px;
+}
+
+.choose-title h4 {
+  background-color: white;
+}
+
+.item-info p {
+  color: rgb(27, 28, 43);
+  padding: 4px;
+}

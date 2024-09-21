@@ -1,0 +1,29 @@
+/* .signup-sec {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+  background-color: #fbf3d5;
+  max-width: 1440px;
+  min-height: 100vh;
+  border-radius: 8px;
+}
+.signup-sec .col-3 {
+  border-right: 3px solid black;
+}
+.signup-header {
+  padding: 10px;
+  border-bottom: solid black 3px;
+  font-size: larger;
+}
+.col-3 button {
+  margin: 30px !important;
+  height: 100px;
+}
+.col-3 button:last-child {
+  margin: 30px !important;
+
+  height: 100px;
+} */
+.auth-input {
+  background-color: white;
+}

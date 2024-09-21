@@ -1,0 +1,16 @@
+.label-input {
+  background-color: #ffffff;
+  width: 90%;
+  padding: 3px 5px 3px 5px;
+}
+
+.label-input:hover {
+  background-color: #e0dede;
+}
+.ant-form button {
+  background-color: #cdcdcd;
+  margin-top: 25px;
+}
+.social-account-item {
+  background-color: black;
+}

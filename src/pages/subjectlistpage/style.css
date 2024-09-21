@@ -1,0 +1,64 @@
+/* .subject-list-item {
+  padding: 35px;
+  width: 100%;
+  min-height: 80px;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px #adadad;
+}
+
+.subject-list-item:hover {
+  background-color: #adadad;
+  transition: all 0.3s;
+}
+.challenge-type-list {
+  display: flex;
+  justify-content: space-around;
+}
+.challenge-type-list-item {
+  width: 150px;
+  height: 50px;
+  background: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px #adadad;
+}
+.challenge-type-list-item:hover {
+  background-color: #adadad;
+  transition: all 0.6s;
+}
+
+.subject-list {
+  margin-top: 80px;
+  background-image: linear-gradient(
+    95.2deg,
+    rgba(173, 252, 234, 1) 26.8%,
+    rgba(192, 229, 246, 1) 64%
+  );
+  border: 3px solid #adadad;
+  border-radius: 12px;
+  height: 100%;
+  padding: 64px 48px 64px 48px;
+}
+.subject-list-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: center;
+  margin-top: 40px;
+}
+.subject-list-title {
+  padding: 24px;
+} */
