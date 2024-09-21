@@ -19,8 +19,8 @@ const AuthProvider = ({ children }) => {
           const decodedToken = jwtDecode(storedToken);
           const url =
             decodedToken.role === "admin"
-              ? `https://x21-be.onrender.com/admins/${decodedToken.userId}`
-              : `https://x21-be.onrender.com/users/${decodedToken.userId}`;
+              ? `https://vietnamese-word-game-be.onrender.com/admins/${decodedToken.userId}`
+              : `https://vietnamese-word-game-be.onrender.com/users/${decodedToken.userId}`;
           const response = await axios.get(url);
           const userData = { ...response.data, role: decodedToken.role };
           setUser(userData);
@@ -56,7 +56,7 @@ const AuthProvider = ({ children }) => {
       if (storedToken) {
         const decodedToken = jwtDecode(storedToken);
         const response = await axios.get(
-          `https://x21-be.onrender.com/users/${decodedToken.userId}`,
+          `https://vietnamese-word-game-be.onrender.com/users/${decodedToken.userId}`,
           {
             headers: { Authorization: `Bearer ${storedToken}` },
           }

@@ -9,7 +9,7 @@ const ManagePlayer = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("https://x21-be.onrender.com/users");
+        const response = await axios.get("https://vietnamese-word-game-be.onrender.com/users");
         setUsers(response.data);
       } catch (error) {
         console.log(error);
@@ -21,10 +21,10 @@ const ManagePlayer = () => {
   }, [users]);
   const deleteUser = async (id) => {
     try {
-      await axios.delete(`https://x21-be.onrender.com/users/${id}`);
+      await axios.delete(`https://vietnamese-word-game-be.onrender.com/users/${id}`);
       message.success("Người chơi đã được xóa thành công!");
       // Refresh the list of users
-      const response = await axios.get("https://x21-be.onrender.com/users");
+      const response = await axios.get("https://vietnamese-word-game-be.onrender.com/users");
       setUsers(response.data);
     } catch (error) {
       console.log(error);

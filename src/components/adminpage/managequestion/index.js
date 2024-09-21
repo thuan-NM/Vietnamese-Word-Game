@@ -37,7 +37,7 @@ const ManageQuestion = () => {
 
   const createQuestion = async (payload) => {
     try {
-      await axios.post("https://x21-be.onrender.com/qnas/admin", payload);
+      await axios.post("https://vietnamese-word-game-be.onrender.com/qnas/admin", payload);
       message.success("Câu hỏi mới đã được tạo thành công!");
     } catch (error) {
       console.log(error);
@@ -47,7 +47,7 @@ const ManageQuestion = () => {
 
   const updateQuestion = async (id, payload) => {
     try {
-      await axios.put(`https://x21-be.onrender.com/qnas/${id}`, payload);
+      await axios.put(`https://vietnamese-word-game-be.onrender.com/qnas/${id}`, payload);
       message.success("Câu hỏi đã được cập nhật thành công!");
     } catch (error) {
       console.log(error);
@@ -85,7 +85,7 @@ const ManageQuestion = () => {
       }
       // Refresh the list of questions
       const response = await axios.get(
-        "https://x21-be.onrender.com/qnas/admin"
+        "https://vietnamese-word-game-be.onrender.com/qnas/admin"
       );
       setQnas(response.data.questions);
     } catch (error) {
@@ -109,7 +109,7 @@ const ManageQuestion = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://x21-be.onrender.com/qnas/admin"
+          "https://vietnamese-word-game-be.onrender.com/qnas/admin"
         );
         const subjectresponse = await SubjectsService.getAll();
         setSubjects(subjectresponse.data);
@@ -124,11 +124,11 @@ const ManageQuestion = () => {
   }, [qnas, subjects]);
   const deleteQuestion = async (id) => {
     try {
-      await axios.delete(`https://x21-be.onrender.com/qnas/${id}`);
+      await axios.delete(`https://vietnamese-word-game-be.onrender.com/qnas/${id}`);
       message.success("Câu hỏi đã được xóa thành công!");
       // Refresh the list of questions
       const response = await axios.get(
-        "https://x21-be.onrender.com/qnas/admin"
+        "https://vietnamese-word-game-be.onrender.com/qnas/admin"
       );
       setQnas(response.data.questions);
     } catch (error) {

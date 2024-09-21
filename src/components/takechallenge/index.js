@@ -21,7 +21,7 @@ const TakeChallenge = ({ subjectId, challengeType }) => {
   useEffect(() => {
     const fetchQuestion = async () => {
       try {
-        const response = await axios.get("https://x21-be.onrender.com/qnas/", {
+        const response = await axios.get("https://vietnamese-word-game-be.onrender.com/qnas/", {
           params: { subjectId: subjectId, challengeType: challengeType },
         });
         if (response.status == 200) {

@@ -12,7 +12,7 @@ const Ranking = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://x21-be.onrender.com/users/rank"
+          "https://vietnamese-word-game-be.onrender.com/users/rank"
         );
         setUsers(response.data);
       } catch (error) {

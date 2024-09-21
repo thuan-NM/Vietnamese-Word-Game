@@ -20,16 +20,16 @@ const ManageAdmin = () => {
     try {
       if (selectedAdmin) {
         await axios.put(
-          `https://x21-be.onrender.com/admins/changeinfo/${selectedAdmin._id}`,
+          `https://vietnamese-word-game-be.onrender.com/admins/changeinfo/${selectedAdmin._id}`,
           values
         );
         message.success("Admin đã được cập nhật thành công!");
       } else {
-        await axios.post("https://x21-be.onrender.com/admins/register", values);
+        await axios.post("https://vietnamese-word-game-be.onrender.com/admins/register", values);
         message.success("Admin mới đã được tạo thành công!");
       }
       // Refresh the list of admins
-      const response = await axios.get("https://x21-be.onrender.com/admins");
+      const response = await axios.get("https://vietnamese-word-game-be.onrender.com/admins");
       setAdmins(response.data);
     } catch (error) {
       console.log(error);
@@ -62,7 +62,7 @@ const ManageAdmin = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("https://x21-be.onrender.com/admins");
+        const response = await axios.get("https://vietnamese-word-game-be.onrender.com/admins");
         setAdmins(response.data);
       } catch (error) {
         console.log(error);
@@ -74,10 +74,10 @@ const ManageAdmin = () => {
   }, []);
   const deleteAdmin = async (id) => {
     try {
-      await axios.delete(`https://x21-be.onrender.com/admins/${id}`);
+      await axios.delete(`https://vietnamese-word-game-be.onrender.com/admins/${id}`);
       message.success("Admin đã được xóa thành công!");
       // Refresh the list of admins
-      const response = await axios.get("https://x21-be.onrender.com/admins");
+      const response = await axios.get("https://vietnamese-word-game-be.onrender.com/admins");
       setAdmins(response.data);
     } catch (error) {
       console.log(error);

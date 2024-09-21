@@ -21,12 +21,12 @@ const ManageSubject = () => {
     try {
       if (selectedSubject) {
         await axios.put(
-          `https://x21-be.onrender.com/subjects/${selectedSubject._id}`,
+          `https://vietnamese-word-game-be.onrender.com/subjects/${selectedSubject._id}`,
           values
         );
         message.success("Chủ đề đã được cập nhật thành công!");
       } else {
-        await axios.post("https://x21-be.onrender.com/subjects", values);
+        await axios.post("https://vietnamese-word-game-be.onrender.com/subjects", values);
         message.success("Chủ đề mới đã được tạo thành công!");
       }
       // Refresh the list of subjects
@@ -72,7 +72,7 @@ const ManageSubject = () => {
   }, []);
   const deleteSubject = async (id) => {
     try {
-      await axios.delete(`https://x21-be.onrender.com/subjects/${id}`);
+      await axios.delete(`https://vietnamese-word-game-be.onrender.com/subjects/${id}`);
       message.success("Chủ đề đã được xóa thành công!");
       // Refresh the list of subjects
       const response = await SubjectsService.getAll();
